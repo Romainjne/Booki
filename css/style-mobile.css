@@ -1,47 +1,59 @@
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 23px;
-        display: flex;
-        text-align: center;
-       
-    }
-
-    .titles {
-            margin: auto;
-            padding-top: 42px;
-    }
-
-    body {
-        display: flex;
-    }
+        font-size: 23px; 
+         }
+  
 
     .logo {
-        display: flex;
-        margin-left: 133px;
-        margin-top: 20px;
+        margin: auto;
     } 
 
     .nav{
         flex-direction: column;
+        height: unset;
+        align-items: center;
     }
 
     .menu{
-        margin-left: -8px;
         border-bottom: solid rgb(220 220 220 / 56%);
-        padding-bottom: 12px;
-        padding-top: 35px;
+        width: 100%;
     }
 
     .element_menu:hover {
         border-bottom: solid;
         border-top: none;
-        padding-bottom: 12px;
+    }
+
+    .element_menu {
+        display: flex;
+        width: 100%;
+        justify-content:center ;
+        padding-bottom: 20px;
     }
 
     .description {
         font-size: 17px;
-        display: flex;
-        justify-content: center;
+    }
+
+    .menu li {
+        width: 50%;
+    }
+
+    .titles{
+        margin: 45px 17px;
+    }
+
+    .search_disabled {
+        display: none;
+    }
+
+    .border_search {
+        width: 280px;
+        margin-left: 15px;
+    }
+
+    .filter {
+        flex-wrap: wrap; 
     }
 
 
