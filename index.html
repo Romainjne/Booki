@@ -34,24 +34,24 @@
             <div class="flex_center  icon">
                 <i class="fa-solid fa-location-dot"></i>
             </div>
-            <div>
+            <form class="flex_center">
                 <input
-                class="search flex_center border_none padding_search"
+                class="search flex_center padding_search"
                 type="search" 
-                value="Marseille, France"
+                placeholder ="Marseille, France"
                 />
-            </div>    
-            <div class="flex_center button_search search_disabled">Rechercher
-            </div>
-            <div class=" flex_center magnifying_glass_none">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
+                <button class="flex_center button_search search_disabled">Rechercher
+                </button>
+                <button class="button_search flex_center magnifying_glass_none">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>    
     </section> 
     
-    <section>
+    <section class="filters">
+        <div class="margin_title"> <h2 class="filter_font">Filtres</h2></div>
 
         <div class="filter margin_filter">
-            <div class="margin_title"> <h2 class="filter_font">Filtres</h2></div>
             <div class="flex_between filter_text_icons">
                 <i class="fa-solid fa-money-bill-wave filter_icon flex_center"></i>
                 <div class="filter_text flex_center">Economique</div>
@@ -68,8 +68,33 @@
                 <i class="fa-solid fa-dog filter_icon flex_center"></i>
                 <div class="filter_text flex_center">Animaux autorisés</div>
             </div>
-        </div> 
-    </section>       
+        </div>
+    </section> 
+    <section class="info">
+        <div class="parent_icon flex_center"><i class="fa-solid fa-xs fa-info color_blue"></i></div>
+        <p class="info_text_size">Plus de 500 logements sont disponibles dans cette ville</p>
+    </section>
+
+    <section class="lodging_back">
+        <div class=" flex_column_around size_lodging back_grey bloc_lodging">
+            <h3 class="lodging_title">Hébergements à Marseille</h3>
+            <div class="flex_between flex_start">
+                <div class="lodging_card flex_column_center">
+                    <div class="img_lodging_1"></div>
+                    <div class="lodging_card_details">
+                        <h3 class="card_title">Auberge de la Cannebière</h3>
+                        <p class="card_text">Nuit à partir de <strong>25€</strong></p>
+                        <div><i class="fa-solid fa-star color_blue"></i>
+                            <i class="fa-solid fa-star color_blue"></i>
+                            <i class="fa-solid fa-star color_blue"></i>
+                            <i class="fa-solid fa-star color_blue"></i>
+                            <i class="fa-solid fa-star color_grey"></i>
+                        </div>
+                    </div>
+            </div>
+    </section>
+
+          
         
         
 </body>

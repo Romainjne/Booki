@@ -48,13 +48,45 @@
     }
 
     .border_search {
-        width: 280px;
-        margin-left: 15px;
+        justify-content: left;
+        margin-left: 21px;
     }
 
-    .filter {
-        flex-wrap: wrap; 
+    .magnifying_glass_none {
+        display: flex;
+
     }
+
+    .filters{
+        margin-left: 25px;
+    }
+
+    .size_lodging {
+        width: 100%;
+    }
+
+    .lodging_card {
+        width: 95%;
+    }
+
+    .back_grey {
+        background-color:#f2f2f2f2;
+    }
+
+    .lodging_back {
+        margin-left: 0px;
+    }
+
+    .bloc_lodging {
+        padding-left: 35px;
+    }
+
+    .lodging_card_details {
+        width: 95%;
+    }
+
+    
+    
 
 
 }
