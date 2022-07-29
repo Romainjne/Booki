@@ -62,11 +62,11 @@
     }
 
     .size_lodging {
-        width: 100%;
+        border-radius: 0;
     }
 
     .lodging_card {
-        width: 95%;
+        width: 100%;
     }
 
     .back_grey {
@@ -75,14 +75,56 @@
 
     .lodging_back {
         margin-left: 0px;
+        flex-direction: column-reverse;
     }
 
     .bloc_lodging {
-        padding-left: 35px;
+        width: 100%;
+        margin-left: 25px;
     }
 
     .lodging_card_details {
         width: 95%;
+    }
+
+    .info {
+        margin-left: 20px;
+    }
+
+    .size_popular {
+        border-radius: 0;
+    }
+
+    .star_popular {
+        margin-top: 85px;
+    }
+
+    .lodging {
+        justify-content: center;
+    }
+
+    .img_lodging_1{
+        height: 220px;
+    }
+
+    .img_lodging_2{
+        height: 220px;
+    }
+
+    .img_lodging_3{
+        height: 220px;
+    }
+
+    .img_lodging_4{
+        height: 220px;
+    }
+
+    .img_lodging_5{
+        height: 220px;
+    }
+
+    .img_lodging_6{
+        height: 220px;
     }
 
     
