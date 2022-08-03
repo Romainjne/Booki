@@ -80,7 +80,6 @@
 
     .bloc_lodging {
         width: 100%;
-        margin-left: 25px;
     }
 
     .lodging_card_details {
@@ -93,10 +92,6 @@
 
     .size_popular {
         border-radius: 0;
-    }
-
-    .star_popular {
-        margin-top: 85px;
     }
 
     .lodging {
@@ -125,6 +120,61 @@
 
     .img_lodging_6{
         height: 220px;
+    }
+
+    .phone_disposition {
+        padding: 30px;
+        margin-top: 0px;
+    }
+
+    .activities_unit_2{
+        width: 100%;
+        height: unset;
+    }
+
+    .Activities_settings {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .activities_unit {
+        height: unset;
+    }
+
+    .phone_activities_position {
+        flex-direction: column;
+    }
+
+    .img_activities_1 {
+        height: 150px;
+    }
+
+    .img_activities_2 {
+        height: 150px;
+    }
+
+    .img_activities_3 {
+        height: 150px;
+    }
+
+    .img_activities_4 {
+        height: 150px;
+    }
+
+    .img_activities_5 {
+        height: 150px;
+    }
+
+    .img_activities_6 {
+        height: 150px;
+    }
+
+    .img_activities_settings{
+        margin-bottom: 30px;
+    }
+
+    .title_marseille {
+        margin-left: 0px;
     }
 
     

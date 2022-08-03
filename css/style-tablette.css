@@ -27,4 +27,28 @@
     .filter_text_icons{
         margin-bottom: 15px;
     }
+
+    .lodging_back {
+        margin-left: 0px;
+    }
+
+    .tablet_disposition {
+        flex-direction:column-reverse;
+        width: 100%;
+        align-items: center;
+    }
+
+    .tablet_popular {
+        display: flex;  
+        width: 90%;
+        margin-top: 30px;
+        margin-right: 35px;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .size_lodging {
+        width: 90%;
+    }
+
 }
