@@ -62,15 +62,13 @@
     }
 
     .size_lodging {
-        border-radius: 0;
+        border-radius: 0px;
+        background-color: white;
     }
 
     .lodging_card {
         width: 100%;
-    }
-
-    .back_grey {
-        background-color:#f2f2f2f2;
+        box-shadow: 5px 5px 5px 1px #f2f2f2;
     }
 
     .lodging_back {
@@ -123,8 +121,7 @@
     }
 
     .phone_disposition {
-        padding: 30px;
-        margin-top: 0px;
+        margin-top: 25px;
     }
 
     .activities_unit_2{
@@ -145,36 +142,41 @@
         flex-direction: column;
     }
 
-    .img_activities_1 {
-        height: 150px;
-    }
-
-    .img_activities_2 {
-        height: 150px;
-    }
-
-    .img_activities_3 {
-        height: 150px;
-    }
-
-    .img_activities_4 {
-        height: 150px;
-    }
-
-    .img_activities_5 {
-        height: 150px;
-    }
-
-    .img_activities_6 {
-        height: 150px;
-    }
-
     .img_activities_settings{
         margin-bottom: 30px;
     }
 
     .title_marseille {
         margin-left: 0px;
+    }
+
+    .common_activities_settings {
+        height: 200px;
+        margin-top: 5px;
+        width: 100%;
+
+    }
+
+    .popular_img_settings {
+        width: 45%;
+    }
+
+    .footer_settings {
+        align-items: flex-start;
+        height: 515px;
+        flex-direction: column;
+    }
+
+    .footer_ul_1 {
+        margin-top: 50px;
+    }
+
+    .footer_ul_2 {
+        margin-left: 40px;
+    }
+
+    .footer_ul_3 {
+        margin-left: 40px;
     }
 
     

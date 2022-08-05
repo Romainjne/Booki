@@ -62,7 +62,7 @@ h1 {
 
 .flex_between {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
 }
 
@@ -81,7 +81,7 @@ h1 {
 
 .flex_column_between {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
 }
 
@@ -280,39 +280,11 @@ h1 {
     line-height: 25px;
 }
 
-.img_lodging_1 { 
-    background-image:url("../images/hebergements/marcus-loke.jpg");
-}
-
-.img_lodging_2 { 
-    background-image:url("../images/hebergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-}
-
-
-.img_lodging_3 { 
-    background-image:url("../images/hebergements/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-}
-
-
-.img_lodging_4 { 
-    background-image:url("../images/hebergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-}
-
-
-.img_lodging_5 { 
-    background-image:url("../images/hebergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-}
-
-
-.img_lodging_6 { 
-    background-image:url("../images/hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-}
 
 .img_lodging_common {
     width : 100%;
-    height: 60%;
-    background-size:cover ;
-    background-position: center;
+    height:125px;
+    object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -350,28 +322,25 @@ h1 {
 
 /* les plus populaires */
 
-.img_lodging_7 { 
-    background-image:url("../images/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-}
-
-.img_lodging_8 { 
-    background-image:url("../images/hebergements/aw-creative-VGs8z60yT2c-unsplash.jpg");
-}
-
-.img_lodging_9 { 
-    background-image:url("../images/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-}
 
 .img_popular_common {
-    width : 35%;
-    height: 100%;
-    background-size:cover ;
-    background-position: center;
+    width : 100%;
+    height: 145px;
+    object-fit: cover;
     border-radius: 15px 0px 0px 15px;
+    margin-top: 6px;
 }
 
 .popular_position {
     flex-direction: column;
+}
+
+.star_position {
+    margin-bottom: 10px;
+}
+
+.popular_img_settings {
+    width: 62%;
 }
 
 .popular_card {
@@ -385,15 +354,16 @@ h1 {
 }
 
 .popular_card_details {
-    width: 60%;
+    width: 95%;
     font-size: 15px;
     line-height: 25px;
-    margin-left: 20px;
+    margin-top: 15px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+    margin-left: 20px; 
+   }
 
 
 .popular_title {
@@ -429,7 +399,7 @@ h1 {
 
 .activities_unit_2 {
     width: 23%;
-    height: 600px;
+    height: 100%;
 }
 
 
@@ -437,12 +407,14 @@ h1 {
     width: 23%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
+    height: 100%;
 }
 
 .img_activities_settings {
     width: 100%;
     border-radius: 15px;
     box-shadow: 5px 5px 5px 1px #f2f2f2;
+    
 }
 
 .title_activities {
@@ -457,50 +429,60 @@ h1 {
     height: 70px;
 }
 
-.img_activities_1 {
+.img_activities {
     width : 100%;
-    height: 530px;
-    background-size:cover ;
-    background-position: center;
+    height: calc( 100% - 70px );
+    object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
 
-.img_activities_2 {
-    width : 100%;
-    height: 250px;
-    background-size:cover ;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
+
+.img_activities_2_settings {
+    height: 50%;
 }
 
-.img_activities_3 {
-    width : 100%;
-    height: 150px;
-    background-size:cover ;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
+.img_activities_3_settings {
+    height: 43%;
+    margin-top: 7%;
 }
 
-.img_activities_4 {
-    width : 100%;
-    height: 530px;
-    background-size:cover ;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
+.img_activities_5_settings {
+    height: 46.50%;
 }
 
-.img_activities_5 {
-    width : 100%;
-    height: 200px;
-    background-size:cover ;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
+.img_activities_6_settings {
+    height: 46.50%;
+    margin-top: 7%;
 }
 
-.img_activities_6 {
-    width : 100%;
-    height: 200px;
-    background-size:cover ;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
+/* footer */
+
+.footer_settings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 33px;
+    height: 230px;
+
+}
+
+.footer_text_size {
+    font-weight: 400;
+    font-size: medium;
+}
+
+.list_style {
+    list-style-type: none;
+}
+
+.footer_ul_1 {
+    margin-left: 40px;
+}
+
+.footer_ul_2 {
+    margin-right: 80px;
+}
+
+.footer_ul_3 {
+    margin-right: 335px;
 }

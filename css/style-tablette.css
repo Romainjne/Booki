@@ -51,4 +51,45 @@
         width: 90%;
     }
 
+    .popular_img_3 {
+        width: 24%;
+    }
+
+    .Activities_settings {
+        height: 50%;
+    }
+
+    .img_activities_5_settings {
+        height: 50%;
+    }
+
+    .activities_unit {
+        align-items: flex-start;
+    }
+
+    .img_activities_3_settings {
+        width: 339px;
+        height: 193.19px;
+        margin-bottom: 80px;
+        align-self: end;
+    }
+
+    .img_activities_6_settings {
+        width: 339px;
+        height: 193.19px;
+        margin-bottom: 80px;
+        align-self: end;
+        
+    }
+
+    .footer_ul_3 {
+        margin-right: 100px;
+        margin-bottom: 30px;
+    }
+
+    .footer_ul_2 {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
 }
